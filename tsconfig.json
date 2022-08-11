@@ -16,6 +16,35 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@auth/constants": ["./src/modules/auth/constants"],
+      "@auth/controllers": ["./src/modules/auth/controllers"],
+      "@auth/decorators": ["./src/modules/auth/decorators"],
+      "@auth/dto": ["./src/modules/auth/dto"],
+      "@auth/entities": ["./src/modules/auth/entities"],
+      "@auth/enums": ["./src/modules/auth/enums"],
+      "@auth/guards": ["./src/modules/auth/guards"],
+      "@auth/models": ["./src/modules/auth/models"],
+      "@auth/modules": ["./src/modules/auth/auth.module"],
+      "@auth/providers": ["./src/modules/auth/providers"],
+      "@auth/services": ["./src/modules/auth/services"],
+      "@auth/strategies": ["./src/modules/auth/strategies"],
+      "@common/modules": ["./src/modules/common"],
+      "@core/controllers": ["./src/modules/core/controllers"],
+      "@core/dto": ["./src/modules/core/dto"],
+      "@core/entities": ["./src/modules/core/entities"],
+      "@core/modules": ["./src/modules/core"],
+      "@core/providers": ["./src/modules/core/providers"],
+      "@core/services": ["./src/modules/core/services"],
+      "@config": ["./src/config"],
+      "@config/module": ["./src/config"],
+      "@database": ["./src/database"],
+      "@interceptors": ["./src/interceptors"],
+      "@exceptions": ["./src/exceptions"],
+      "@shared/enums": ["./src/shared/enums"],
+      "@shared/models": ["./src/shared/models"],
+      "@shared/validation": ["./src/shared/validation"]
+    }
   }
 }
