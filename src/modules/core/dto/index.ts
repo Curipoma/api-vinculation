@@ -2,3 +2,9 @@ export * from './pagination/pagination.dto';
 export * from './catalogues/create-catalogue.dto';
 export * from './catalogues/update-catalogue.dto';
 export * from './catalogues/filter-catalogue.dto';
+export * from './solicitudStudents/create-solicitudStudent.dto';
+export * from './solicitudStudents/filter-solicitudStudent.dto';
+export * from './solicitudStudents/update-solicitudStudent.dto';
+export * from './briefcaseStudents/create-briefcaseStudent.dto';
+export * from './briefcaseStudents/filter-briefcaseStudent.dto'
+export * from './briefcaseStudents/update-briefcaseStudent.dto';
